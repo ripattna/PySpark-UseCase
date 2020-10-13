@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/.ipynb_checkpoints/class 10-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/class 10.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/class 11.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/class 4 numpy intro.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/class 6.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/class 7 .ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/class 8.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/class 9.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ControlStatement/oct2019/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/.ipynb_checkpoints/ppp-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/Demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/ppp.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/WordCountTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/retail_db/GetRevenuePerOrder.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/spark_usecase/OlympicDataAnalysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCountTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCountTest$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCountTest$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCountTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCountTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/Movie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/Movie.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/Movie_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/Src_Table.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/Sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/Sample.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/customer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/employee.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/office.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/office.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/order.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/order.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/order_detail.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/order_detail.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/product.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/product.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/student-mat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/student-mat.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/Sample-JSON.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/Sample-JSON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/customer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/customer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/employee.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/employee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/idap-enabled-data_api_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/idap-enabled-data_api_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/idap-enabled-data_api_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/idap-enabled-data_api_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/mongo-import.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/mongo-import.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/office.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/office.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/order.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/order.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/orderdetail.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/orderdetail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/product.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/json/sample-json-file.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/json/sample-json-file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/text/CommaDelimited.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/text/CommaDelimited.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/text/Employee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/text/Employee.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/text/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/text/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/text/Product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/text/Product.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/text/Sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/text/Sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Input/text/Src_Table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/text/Src_Table.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Output/New1/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Output/New1/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Output/New1/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/Output/New1/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files/geekfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Test/Stop_ScreenLock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Jupyter_Notebook/.ipynb_checkpoints/Numpy Array Mathematics-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/.ipynb_checkpoints/Numpy Array Mathematics-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Jupyter_Notebook/.ipynb_checkpoints/Numpy_Array_Innitilization-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/.ipynb_checkpoints/Numpy_Array_Innitilization-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Jupyter_Notebook/Numpy Array Mathematics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/Numpy Array Mathematics.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Jupyter_Notebook/Numpy_Array_Innitilization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Jupyter_Notebook/Numpy_Array_Innitilization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Numpy/numpyTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Pandas/Car_data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Pandas/Car_data_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Pandas/DataFrame_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Pandas/DataFrame_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Test/Continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Test/Continue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$ec94ba127cd43931e83b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$ec94ba127cd43931e83b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$ec94ba127cd43931e83b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Csv_Operation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Csv_Operation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Csv_Operation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Csv_Operation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Test$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/update/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/update/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fU8j1lgfHR4PSeLhiIdpHNBizg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BigData/Spark/python/lib/py4j-0.10.7-src.zip" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Python.DataFrame_Test">
+    <configuration name="ConnectToLocalHive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DataFrame_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/rdd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/rdd/DataFrame_Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeeDetails" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hive/EmployeeDetails.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HiveTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Project\PySpark\com\hive\HiveTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hive/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ConnectToLocalHive" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.EmployeeDetails" />
+      <item itemvalue="Python.HiveTest" />
+      <item itemvalue="Python.DataFrame_Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DataFrame_Test" />
+        <item itemvalue="Python.HiveTest" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.EmployeeDetails" />
+        <item itemvalue="Python.ConnectToLocalHive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="" />
+      <created>1596261443877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596261443877</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600079390472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600079390472" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1596261799300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596261799300" />
+    <state width="1323" height="50" key="GridCell.Tab.0.bottom" timestamp="1602523507291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="50" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602523507291" />
+    <state width="1323" height="50" key="GridCell.Tab.0.center" timestamp="1602523507290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="50" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602523507290" />
+    <state width="1323" height="50" key="GridCell.Tab.0.left" timestamp="1602523507290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="50" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602523507290" />
+    <state width="1323" height="50" key="GridCell.Tab.0.right" timestamp="1602523507290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="50" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602523507290" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1596261800969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596261800969" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596395522605">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596395522605" />
+  </component>
+</project>
