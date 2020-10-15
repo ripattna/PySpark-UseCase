@@ -13,7 +13,7 @@ if __name__ == "__main__":
     # print(text_file.collect())
     # print(type(text_file))
     counts = text_file.flatMap(lambda line: line.split(" ")) \
-        .map(lambda word: (word, 1)) \
+        .map(lambda x: (x, 1)) \
         .reduceByKey(lambda a, b: a + b)
     print(counts.collect())
     print("The word count od the file is:", counts.count())

@@ -23,7 +23,7 @@ table_list = spark.sql("show tables in demo")
 table_name = table_list.filter(table_list.tableName == "employee").collect()
 
 if len(table_name) > 0:
-    print("Table Employee is present in Demo database")
+    print("Table Employee is already present in Demo database.\n")
 else:
     print("Table not found,Creating the table")
     spark.sql('create table employee \
@@ -34,33 +34,49 @@ else:
 
     spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/text/Employee.txt' INTO TABLE employee")
 
-spark.sql("show tables").show()
-
-spark.sql("select * from employee").show()
-# spark.sql("drop table employee")
-
-""""
+# Select the highest salary
+print("Select the highest salary:")
 spark.sql("select * from"
-          "(select *,row_number() over (partition by commodity,version order by price desc) rn from test)v"
-          " where rn=1").show()
+          "(select *,DENSE_RANK() over(order by salary desc)as DENSE_RANK FROM employee)v "
+          "where DENSE_RANK=1").show()
 
+# Select the third highest salary
+print("Select the third highest salary:")
 spark.sql("select * from"
-          "(select *,row_number() over (partition by commodity order by price desc) rn from test)v"
-          " where rn=1").show()
+          "(select *,DENSE_RANK() over(order by salary desc)as DENSE_RANK FROM employee)v "
+          "where DENSE_RANK=3").show()
 
-spark.sql("SELECT id,commodity,price,version,"
-          "rank() over (order by price desc) as rank,"
-          "dense_rank() over (order by price desc) as denserank "
-          "from test").show()
+# Select highest salary of male and the female employee
+print("Select highest salary of male and the female employee using row_number")
+spark.sql("select * from"
+          "(select *,row_number() over(partition by gender order by salary desc) rn from employee)v "
+          "where rn=1").show()
 
-spark.sql("SELECT id,commodity,price,version,"
-          "rank() over (partition by commodity order by price desc) as rank,"
-          "dense_rank() over (partition by commodity order by price desc) as denserank "
-          "from test").show()
+print("Select highest salary of male and the female employee using dense_rank:")
+spark.sql("select * from"
+          "(SELECT *,DENSE_RANK() over(partition by gender order by salary desc)as DENSE_RANK FROM employee)v "
+          "where DENSE_RANK=1").show()
 
-spark.sql("WITH Result AS"
-          "(SELECT price,DENSE_RANK() OVER (partition by version ORDER BY price DESC)AS Price_Rank FROM Test)"
-          "SELECT * FROM Result WHERE Price_Rank = 1").show()
-"""
-# spark.sql("drop table if exists test")
+# Select Second max salary of male and the female employee
+print("Select Second max salary of male and the female employee")
+spark.sql("select * from"
+          "(select *,row_number() over (partition by gender order by salary desc) rn from employee)v "
+          "where rn=2").show()
+
+print("Select second highest salary of male and the female employee using dense_rank:")
+spark.sql("select * from"
+          "(SELECT *,DENSE_RANK() over(partition by gender order by salary desc)as DENSE_RANK FROM employee)v "
+          "where DENSE_RANK=2").show()
+
+spark.sql("SELECT id,name,salary,gender,"
+          "rank() over (order by salary desc) as rank,"
+          "dense_rank() over (order by salary desc) as dense_rank "
+          "from employee").show()
+
+spark.sql("SELECT id,name,salary,gender,"
+          "rank() over (partition by gender order by salary desc) as rank,"
+          "dense_rank() over (partition by gender order by salary desc) as dense_rank "
+          "from employee").show()
+
+# spark.sql("drop table if exists employee")
 
