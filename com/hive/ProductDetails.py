@@ -36,30 +36,30 @@ else:
 
 # spark.sql("show tables").show()
 
-# spark.sql("select * from product").show()
+spark.sql("select * from product").show()
 
-# To get the highest price of each commodity
-
+# To get the highest price of each commodity and version
 spark.sql("select * from"
           "(select *,row_number() over (partition by commodity,version ORDER BY price desc) rn from product)v"
           " where rn=1").show()
 
-print("The First highest Commodity")
-
+print("The First highest Commodity using row number")
 spark.sql("select * from"
           "(select *,row_number() over (partition by commodity ORDER BY price desc)as rn from product)v"
           " where rn=1").show()
 
+print("The First highest Commodity using dance rank")
 spark.sql("select * from"
           "(SELECT *,DENSE_RANK() OVER (partition by commodity ORDER BY price DESC)as dn from product)v"
           " where dn=1").show()
 
+print("The First highest Commodity using dance rank")
 spark.sql("WITH Result AS"
           "(SELECT *,DENSE_RANK() OVER (partition by commodity ORDER BY price DESC)as Price_Rank FROM product)"
           "SELECT * FROM Result WHERE Price_Rank = 1").show()
 
-# Select the second highest commodity of each category to
-print("The Second Highest Commodity")
+# Select the second highest commodity of each category
+print("The Second Highest Commodity of each category")
 spark.sql("select * from"
           "(select *,row_number() over (partition by commodity,version ORDER BY price desc) rn from product)v"
           " where rn=2").show()
@@ -74,8 +74,4 @@ spark.sql("SELECT id,commodity,price,version,"
           "dense_rank() over (partition by commodity order by price desc) as dense_rank "
           "from product").show()
 
-
-
 # spark.sql("drop table if exists product")
-
-

@@ -20,6 +20,7 @@ if __name__ == "__main__":
 
     # Create Database demo
     spark.sql("create database if not exists Demo")
+    spark.sql("drop table demo.movies")
 
     # Listing all the Databases
     spark.sql("show databases").show()
@@ -48,8 +49,8 @@ if __name__ == "__main__":
     # print("Movies table data before the data load:")
     # spark.sql("select * from movies").show()
 
-    spark.sql("select * from movies").show()
-    spark.sql("drop table movies")
+    spark.sql("select * from demo.movies").show()
+    # spark.sql("drop table movies")
 
     # spark.sql("CREATE TABLE src(key INT, value STRING) USING hive")
     # spark.sql("insert into movies (movieId, title,genres) VALUES (12,"xyz","abc")

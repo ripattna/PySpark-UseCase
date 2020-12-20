@@ -20,65 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/dataframe/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/dataframe/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/rdd/RddInterviewAskedExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/ppp.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PySpark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/EmployeeDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/EmployeeDetails.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/HiveRemoteCon.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/HiveRemoteCon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/HiveTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ProductDetails.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/Spark_Sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/Spark_Sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/TestPy.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/TestPy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/derby.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/log/log2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/log/log2.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c180.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c191.dat" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c191.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/API_Connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/topgear/API_Connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/Connection-Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/topgear/Connection-Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/Csv_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/Csv_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/DataFrame_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/DataFrame_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/DataFrame_Test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/DataFrame_Test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/HDFSConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/topgear/HDFSConnection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/Json_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/Json_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/retail_db/GetRevenuePerOrder.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/spark_usecase/OlympicDataAnalysis.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/spark_usecase/OlympicDataAnalysisUseCase.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator14$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator14$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator18$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator18$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$$typecreator9$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateDataFrame$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$$typecreator14$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$$typecreator18$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$$typecreator5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$$typecreator9$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDtoDF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/retail_db/GetRevenuePerOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/spark_usecase/OlympicDataAnalysis$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/spark_usecase/OlympicDataAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/spark_usecase/OlympicDataAnalysisUseCase$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/spark_usecase/OlympicDataAnalysisUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/ProductDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ProductDetails.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,10 +58,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BigData/Spark/python/lib/py4j-0.10.7-src.zip" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spark_Scala" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -122,8 +70,29 @@
       <recent name="C:\Project\PySpark\com\topgear" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RddInterviewAskedExercise">
-    <configuration name="DataFrame_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ProductDetails">
+    <configuration name="ConnectToLocalHive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CreateRDD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Project\PySpark\com\dataframe\DataFrame_Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/rdd/CreateRDD.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,41 +176,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySpark" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hive/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.DataFrame_Test" />
+      <item itemvalue="Python.ConnectToLocalHive" />
+      <item itemvalue="Python.CreateRDD" />
       <item itemvalue="Python.EmployeeDetails" />
       <item itemvalue="Python.ProductDetails" />
       <item itemvalue="Python.RddInterviewAskedExercise" />
-      <item itemvalue="Python.demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RddInterviewAskedExercise" />
-        <item itemvalue="Python.EmployeeDetails" />
         <item itemvalue="Python.ProductDetails" />
-        <item itemvalue="Python.DataFrame_Test" />
-        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.EmployeeDetails" />
+        <item itemvalue="Python.ConnectToLocalHive" />
+        <item itemvalue="Python.CreateRDD" />
+        <item itemvalue="Python.RddInterviewAskedExercise" />
       </list>
     </recent_temporary>
   </component>
@@ -269,37 +217,49 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1606146582952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1606146582952" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1606147527688">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606147527688" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602662989064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602662989063" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1596261799300">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1606150264392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596261799300" />
-    <state width="1323" height="161" key="GridCell.Tab.0.bottom" timestamp="1602743120856">
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606150264392" />
+    <state width="1323" height="365" key="GridCell.Tab.0.bottom" timestamp="1607925199572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602743120856" />
-    <state width="1323" height="161" key="GridCell.Tab.0.center" timestamp="1602743120856">
+    <state width="1323" height="365" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607925199572" />
+    <state width="1323" height="365" key="GridCell.Tab.0.center" timestamp="1607925199572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602743120856" />
-    <state width="1323" height="161" key="GridCell.Tab.0.left" timestamp="1602743120855">
+    <state width="1323" height="365" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607925199572" />
+    <state width="1323" height="365" key="GridCell.Tab.0.left" timestamp="1607925199571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602743120855" />
-    <state width="1323" height="161" key="GridCell.Tab.0.right" timestamp="1602743120856">
+    <state width="1323" height="365" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607925199571" />
+    <state width="1323" height="365" key="GridCell.Tab.0.right" timestamp="1607925199572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602743120856" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1596261800969">
+    <state width="1323" height="365" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607925199572" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1606146944283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596261800969" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596395522605">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606146944283" />
+    <state x="65" y="0" key="new project wizard" timestamp="1606146990782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596395522605" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606146990782" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
