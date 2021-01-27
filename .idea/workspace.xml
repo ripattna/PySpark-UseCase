@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PySpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PySpark.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/ProductDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ProductDetails.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spark_Scala" />
     <property name="project.structure.last.edited" value="Project" />
@@ -215,48 +212,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="309" y="42" key="#Inspections" timestamp="1606146582952">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1606146582952" />
-    <state x="163" y="0" key="#Project_Structure" timestamp="1606147527688">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606147527688" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602662989064">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602662989063" />
-    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1606150264392">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606150264392" />
-    <state width="1323" height="365" key="GridCell.Tab.0.bottom" timestamp="1607925199572">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="365" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607925199572" />
-    <state width="1323" height="365" key="GridCell.Tab.0.center" timestamp="1607925199572">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="365" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607925199572" />
-    <state width="1323" height="365" key="GridCell.Tab.0.left" timestamp="1607925199571">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="365" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607925199571" />
-    <state width="1323" height="365" key="GridCell.Tab.0.right" timestamp="1607925199572">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="365" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607925199572" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1606146944283">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606146944283" />
-    <state x="65" y="0" key="new project wizard" timestamp="1606146990782">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606146990782" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
