@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/dataframe/JoinExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/dataframe/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/JoinExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/JoinExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$$typecreator13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$$typecreator13$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="PySpark/invalid/Python" />
+    </ignored-facets>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -67,7 +79,7 @@
       <recent name="C:\Project\PySpark\com\topgear" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ProductDetails">
+  <component name="RunManager" selected="Python.ConnectToLocalHive">
     <configuration name="ConnectToLocalHive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,22 +185,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.ConnectToLocalHive" />
-      <item itemvalue="Python.CreateRDD" />
-      <item itemvalue="Python.EmployeeDetails" />
-      <item itemvalue="Python.ProductDetails" />
-      <item itemvalue="Python.RddInterviewAskedExercise" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.ProductDetails" />
-        <item itemvalue="Python.EmployeeDetails" />
-        <item itemvalue="Python.ConnectToLocalHive" />
-        <item itemvalue="Python.CreateRDD" />
-        <item itemvalue="Python.RddInterviewAskedExercise" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
