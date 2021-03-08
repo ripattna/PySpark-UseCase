@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/dataframe/JoinExample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/JoinExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/JoinExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$$typecreator13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$$typecreator13$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/JoinExample$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-add-month.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-add-month.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-aggregate.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-aggregate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-create-list.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-create-list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/hive/Hive_Connection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/hive/Hive_Connection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/DATAtoDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/DATAtoDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/hive/Hive_Connection$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/hive/Hive_Connection$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/rdd/DATAtoDF$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/rdd/DATAtoDF$$typecreator5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/rdd/DATAtoDF$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/rdd/DATAtoDF$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,28 +79,7 @@
       <recent name="C:\Project\PySpark\com\topgear" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ConnectToLocalHive">
-    <configuration name="ConnectToLocalHive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySpark" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pyspark-aggregate">
     <configuration name="CreateRDD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,6 +164,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pyspark-aggregate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/pyspark-examples-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-aggregate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pyspark-aggregate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

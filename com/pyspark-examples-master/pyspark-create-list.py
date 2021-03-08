@@ -11,7 +11,7 @@ from pyspark.sql.types import StructType,StructField, StringType
 
 spark = SparkSession.builder.appName('SparkByExamples.com').getOrCreate()
 
-#Using List
+# Using List
 dept = [("Finance",10), 
         ("Marketing",20), 
         ("Sales",30), 
