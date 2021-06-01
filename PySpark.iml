@@ -4,7 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../BigData/Spark/python" />
     <content url="file://$MODULE_DIR$" />
-    <content url="jar://$MODULE_DIR$/../../BigData/Spark/python/lib/py4j-0.10.7-src.zip!/" />
+    <content url="jar://$MODULE_DIR$/../../BigData/Spark/python/lib/py4j-0.10.9-src.zip!/" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

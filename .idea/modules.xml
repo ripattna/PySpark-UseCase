@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PySpark.iml" filepath="$PROJECT_DIR$/.idea/PySpark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PySpark.iml" filepath="$PROJECT_DIR$/PySpark.iml" />
     </modules>
   </component>
 </project>

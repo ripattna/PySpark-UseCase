@@ -8,7 +8,7 @@ class DataFrame_Test:
         try:
             print("#############################  This is try block!  ####################################")
             # Create Spark session
-            spark = SparkSession.builder.appName("test").getOrCreate()
+            spark = SparkSession.builder..master(DataFrame-Test).appName("test").getOrCreate()
 
             # List
             data = [('Admit', 25), ('Jalopies', 22), ('Sarah', 20), ('Baba', 26)]

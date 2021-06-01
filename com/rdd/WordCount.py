@@ -16,4 +16,4 @@ if __name__ == "__main__":
         .map(lambda x: (x, 1)) \
         .reduceByKey(lambda a, b: a + b)
     print(counts.collect())
-    print("The word count od the file is:", counts.count())
+    print("The word count of the file is:", counts.count())
