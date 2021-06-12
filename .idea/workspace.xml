@@ -20,48 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/sql_db_connection/mySql_connect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/Covid cases in India.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/Emp_Wip.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/Sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/Sample.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/customer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/employee.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/office.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/office.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/olympics_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/olympics_data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/order_detail.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/student-mat.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/com/demo/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/com/demo/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/.ipynb_checkpoints/Car Data Analysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/.ipynb_checkpoints/Car Data Analysis-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Car Data Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Car Data Analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Sql-Connection/MySqlConnect.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Sql-Connection/MySqlConnect.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PySpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dataframe/DataFrame_Coding Problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dataframe/Extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dataframe/ReadJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/DataFrame_HDFS_UseCase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/DataFrame_HDFS_UseCase.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PySpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/dataframe/Csv_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/Csv_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/dataframe/DataFrame_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/DataFrame_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/WordCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/rdd/WordCount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/SqlConnect/MySqlConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/SqlConnect/MySqlConnection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/dataframe/CreateDataFrame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/dataframe/CreateDataFrame.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/PokemonUseCaseRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/PokemonUseCaseRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator14$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator14$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator18$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator18$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$$typecreator9$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/dataframe/CreateDataFrame$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/rdd/PokemonUseCaseRDD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/rdd/PokemonUseCaseRDD$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/Map_FlatMap$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/Map_FlatMap.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +84,28 @@
       <recent name="C:\Project\PySpark\com\topgear" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DataFrame_Test2">
+  <component name="RunManager" selected="Python.ReadJson">
+    <configuration name="DataFrame_Coding Problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySpark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/dataframe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/dataframe/DataFrame_Coding Problem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DataFrame_Test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mySql_connect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadJson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,32 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/sql_db_connection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/dataframe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/sql_db_connection/mySql_connect.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pyspark-aggregate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySpark" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/pyspark-examples-master" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-aggregate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/dataframe/ReadJson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,15 +192,16 @@
     </configuration>
     <list>
       <item itemvalue="Python.IncrementalLoad" />
-      <item itemvalue="Python.mySql_connect" />
-      <item itemvalue="Python.pyspark-aggregate" />
       <item itemvalue="Python.ProductDetails" />
       <item itemvalue="Python.DataFrame_Test2" />
+      <item itemvalue="Python.DataFrame_Coding Problem" />
+      <item itemvalue="Python.ReadJson" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DataFrame_Test2" />
-        <item itemvalue="Python.ProductDetails" />
+        <item itemvalue="Python.ReadJson" />
+        <item itemvalue="Python.DataFrame_Coding Problem" />
+        <item itemvalue="Python.IncrementalLoad" />
       </list>
     </recent_temporary>
   </component>
