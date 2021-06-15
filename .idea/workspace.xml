@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/dataframe/DataFrame_Coding Problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/dataframe/Extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/dataframe/ReadJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/DataFrame_HDFS_UseCase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/DataFrame_HDFS_UseCase.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/dataframe/DataFrame_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/dataframe/DataFrame_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/Map_FlatMap$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.12/classes/com/demo/Map_FlatMap.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
