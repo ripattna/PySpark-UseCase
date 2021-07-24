@@ -80,3 +80,28 @@ spark.sql("SELECT id,name,salary,gender,"
 
 # spark.sql("drop table if exists employee")
 
+id,name ,salary
+1-
+2
+3-
+4
+
+1
+3
+5
+
+vertiluzation
+----
+1
+1
+1
+null
+null
+2
+
+---
+1
+2
+2
+null
+

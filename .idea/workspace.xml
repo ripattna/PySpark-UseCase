@@ -20,7 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Interview_Asked_Sap-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Interview_Asked_Sap-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/SystemLock_Automation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/SystemLock_Automation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/.ipynb_checkpoints/Coding Challenge-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/.ipynb_checkpoints/DataFrame_HDFS_UseCase-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/Coding Challenge.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/DataFrame_HDFS_UseCase.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Temp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Temp.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/WordCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/rdd/WordCount.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,10 +197,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.DataFrame_Coding Problem" />
+      <item itemvalue="Python.DataFrame_Test2" />
       <item itemvalue="Python.IncrementalLoad" />
       <item itemvalue="Python.ProductDetails" />
-      <item itemvalue="Python.DataFrame_Test2" />
-      <item itemvalue="Python.DataFrame_Coding Problem" />
       <item itemvalue="Python.ReadJson" />
     </list>
     <recent_temporary>
