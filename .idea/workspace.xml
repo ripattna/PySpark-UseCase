@@ -20,21 +20,217 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Interview_Asked_Sap-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Interview_Asked_Sap-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/SystemLock_Automation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/SystemLock_Automation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Untitled1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Pandas/Demo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/.ipynb_checkpoints/Coding Challenge-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/.ipynb_checkpoints/DataFrame_HDFS_UseCase-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/Coding Challenge.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/PySpark/DataFrame_HDFS_UseCase.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Temp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Temp.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/rdd/WordCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/rdd/WordCount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PySpark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/Csv_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/DataFrame_Coding Problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/DataFrame_Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/DataFrame_Test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/Extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/IncrementalLoad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/JoinExample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/Json_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/ReadJson.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/SampleRDD_Csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/Spark_Sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/TestPy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dataframe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/ConnectToRemoteHive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/EmployeeDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/HiveExternalTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/HiveManagedTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/HiveRemoteCon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/ProductDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/derby.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/db.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/log/log.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/log/log1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/log/logmirror.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c101.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c111.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c121.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c130.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c141.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c150.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c161.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c171.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c180.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c191.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1e0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c1f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c200.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c211.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c221.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c230.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c241.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c251.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c260.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c271.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c281.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c290.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c2a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c2b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c2c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c2d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c2e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c2f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c300.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c31.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c311.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c321.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c331.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c340.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c351.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c361.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c371.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c380.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c391.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c3a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c3b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c3c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c3d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c3e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c3f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c400.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c41.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c411.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c421.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c430.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c441.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c451.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c461.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c470.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c481.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c490.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c4a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c4b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c4c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c4d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c4e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c4f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c501.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c51.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c510.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c521.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c530.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c541.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c550.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c561.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c570.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c581.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c590.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c5a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c5b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c5c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c5d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c5e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c5f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c601.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c610.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c621.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c630.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c641.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c650.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c661.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c670.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c681.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c690.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c6a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c6b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c6c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c6d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c6e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c6f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c701.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c71.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c711.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c721.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c731.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c741.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c751.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c761.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c771.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c781.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c791.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c7a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c7b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c7c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c7d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c7e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c7f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c801.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c81.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c811.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c821.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c831.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c840.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c851.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c860.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c871.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c880.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c891.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c8a0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c8b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c8c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c8d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c8e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c8f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c90.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c901.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c911.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c920.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c931.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c940.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c951.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c960.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c971.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c981.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c990.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c9a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c9b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c9c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c9d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c9e0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/c9f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/ca01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/ca1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/ca11.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/ca21.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/cb1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/cc0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/cd1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/ce1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/seg0/cf0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hive/metastore_db/service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-rdd-flatMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-rdd-flatMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/CreateRDD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/Demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/Feed_Details.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/RddInterviewAskedExercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/RddOperation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/RddTransformation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/WordCount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/rdd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/sql_db_connection/mySql_connect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/topgear/API_Connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/topgear/Connection-Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/topgear/HDFSConnection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/topgear/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/topgear/spark-assignments-rddbasics.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +249,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/com/hive/ConnectToRemoteHive.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/com/dataframe/IncrementalLoad.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/com/dataframe/JoinExample.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -78,20 +269,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BigData/Spark/python/lib/py4j-0.10.9-src.zip" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project\PySpark\com\dataframe" />
       <recent name="C:\Project\PySpark\com\topgear" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ReadJson">
-    <configuration name="DataFrame_Coding Problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Csv_demo">
+    <configuration name="Csv_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +297,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/dataframe/DataFrame_Coding Problem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/dataframe/Csv_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +306,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DataFrame_Test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +314,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/dataframe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/rdd" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/dataframe/DataFrame_Test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/rdd/Demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +327,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IncrementalLoad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +335,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/dataframe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/rdd" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/dataframe/IncrementalLoad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/rdd/HelloWorld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +348,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ProductDetails" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pyspark-rdd-flatMap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,32 +356,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hive" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/pyspark-examples-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hive/ProductDetails.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ReadJson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySpark" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/dataframe" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/dataframe/ReadJson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/pyspark-examples-master/pyspark-rdd-flatMap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,17 +370,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.DataFrame_Coding Problem" />
-      <item itemvalue="Python.DataFrame_Test2" />
-      <item itemvalue="Python.IncrementalLoad" />
-      <item itemvalue="Python.ProductDetails" />
-      <item itemvalue="Python.ReadJson" />
+      <item itemvalue="Python.HelloWorld" />
+      <item itemvalue="Python.Demo" />
+      <item itemvalue="Python.pyspark-rdd-flatMap" />
+      <item itemvalue="Python.Csv_demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ReadJson" />
-        <item itemvalue="Python.DataFrame_Coding Problem" />
-        <item itemvalue="Python.IncrementalLoad" />
+        <item itemvalue="Python.Csv_demo" />
+        <item itemvalue="Python.pyspark-rdd-flatMap" />
+        <item itemvalue="Python.Demo" />
+        <item itemvalue="Python.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +406,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

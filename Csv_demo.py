@@ -5,9 +5,8 @@ class Csv_demo:
     @staticmethod
     def csv_test():
         try:
-            spark = SparkSession.builder.appName("test").getOrCreate()
-            data_df = spark.read.csv('C:\\Project\\Files\\Input\\csv\\Sample.csv', inferSchema=True, header=True)
-            # data_df = spark.read.format('csv').options(inferSchema=True, header=True).csv('C:\\Project\\Files\\Input\\csv\\Sample.csv')
+            spark = SparkSession.builder.appName("PySpark_UseCase").getOrCreate()
+            data_df = spark.read.csv("resources/Sample.csv", inferSchema=True, header=True)
 
             print('The type of csv file data is:', type(data_df))
 
