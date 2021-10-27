@@ -1,31 +1,52 @@
-from pyspark import SparkContext, SparkConf
+from pyspark.sql import SparkSession
 
 
 class CreteRDD:
     @staticmethod
     def rdd_test():
         try:
-            conf = SparkConf().setAppName("appName").setMaster("local")
-            sc = SparkContext(conf=conf)
 
-            # Creating a RDD by parallelize a collection
-            first_rdd = sc.parallelize(["scala", "java", "python", "ruby", "ansible", "yml", "unix"])
-            # print(type(first_rdd))
-            print("The element of the first RDD is:", first_rdd.collect())
-            # print("#######################################################################################")
+            # Creating SparkSession Session
+            spark = SparkSession.builder.appName("PYSpark-UseCase").master("local[1]").getOrCreate()
 
-            # Creating a RDD referencing a data set from a external storage system
-            read_rdd = sc.textFile("C:\\Project\\Files\\Input\\text\\Input.txt")
-            # print(type(read_rdd))
-            print("The element of the second RDD is:", read_rdd.collect())
-            # print("#######################################################################################")
+            # Create RDD using sparkContext.parallelize()
+            language = ["scala", "java", "python", "ruby", "ansible", "yml", "unix"]
+            rdd1 = spark.sparkContext.parallelize(language)
+            print("The element of the first RDD is:", rdd1.collect())
+
+            # Create RDD from external Data source(Create RDD using sparkContext.textFile())
+            rdd2 = spark.sparkContext.textFile("resources/Input.txt")
+            print("The element of the second RDD is:", rdd2.collect())
+
+            # Create RDD using sparkContext.wholeTextFiles())
+            rdd3 = spark.sparkContext.wholeTextFiles("resources/Input.txt")
+            print("The element of the third RDD is:", rdd3.collect())
 
             # Creating a RDD by transforming a existing RDD
-            new_rdd = read_rdd.filter(lambda x: 'Spark' in x)
-            # print(type(new_rdd))
-            # filter_rdd = new_rdd.collect()
-            print("This is the filter Spark contains word:", new_rdd.count())
-            sc.stop()
+            rdd4 = rdd3.filter(lambda x: 'Spark' in x)
+            print("This is the filter Spark contains word:", rdd4.count())
+            print("This is the filter Spark contains word:", rdd4.collect())
+
+            # Create Empty RDD using sparkContext.emptyRDD
+            # Creates Empty RDD with no partition
+            rdd5 = spark.sparkContext.emptyRDD()
+            print("Value of RDD5 is:", rdd5.collect())
+            print("Type of RDD5 is:", type(rdd5))
+            print("RDD6 Partition Count:" + str(rdd5.getNumPartitions()))
+
+            # Creates Empty RDD using parallelize
+            rdd6 = spark.sparkContext.parallelize([])
+            print(rdd6)
+            print("Value of RDD6 is:", rdd6.collect())
+            print("Type of RDD6 is:", type(rdd6))
+            print("RDD6 Partition Count:" + str(rdd6.getNumPartitions()))
+
+            # Creating Empty RDD with partition
+            rdd7 = spark.sparkContext.parallelize([], 10)
+            print(rdd7)
+            print("Value of RDD7 is:", rdd7.collect())
+            print("Type of RDD7 is:", type(rdd7))
+            print("RDD7 Partition Count:" + str(rdd7.getNumPartitions()))
 
         except ValueError:
             print("Enable to create the RDD!")

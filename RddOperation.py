@@ -1,9 +1,12 @@
 from pyspark import SparkContext, SparkConf
 
-conf = SparkConf().setAppName("appName").setMaster("local")
-sc = SparkContext(conf=conf)
+# Creating SparkContext
+# conf = SparkConf().setAppName("appName").setMaster("local")
+# sc = SparkContext(conf)
 
-read_rdd = sc.textFile("C:\\Project\\Files\\Input\\text\\Input.txt")
+sc = SparkContext("local", "PySpark-UseCase")
+
+read_rdd = sc.textFile("resources/Input.txt")
 print("The element of the RDD is:", read_rdd.collect())
 
 # Creating a RDD by transforming a existing RDD
