@@ -1,4 +1,4 @@
+.DS_Store
 .idea
 .idea/workspace.xml
-.DS_Store
-Pyspark.iml
+.idea/Pyspark.iml
