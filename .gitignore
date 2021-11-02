@@ -1,3 +1,9 @@
 .idea
+<<<<<<< HEAD
 
 
+=======
+.idea/workspace.xml
+.DS_Store
+Pyspark.iml
+>>>>>>> 852320d94af2d8eb44e08d01f535e35efe655cd8
