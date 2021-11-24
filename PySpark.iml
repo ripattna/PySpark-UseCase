@@ -3,8 +3,9 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
-    <content url="file://$USER_HOME$/BigData/Spark/python" />
-    <content url="jar://$USER_HOME$/BigData/Spark/python/lib/py4j-0.10.9-src.zip!/" />
+    <content url="file://$MODULE_DIR$/../../spark-3.1.2-bin-hadoop3.2/python" />
+    <content url="jar://$MODULE_DIR$/../../spark-3.1.2-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip!/" />
+    <content url="jar://$MODULE_DIR$/../../spark-3.1.2-bin-hadoop3.2/python/lib/pyspark.zip!/" />
     <orderEntry type="jdk" jdkName="Python 3.8 (base)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
