@@ -1,4 +1,7 @@
-from pyspark import SparkContext, SparkConf
+"""
+This is Rdd Transformation Example
+"""
+from pyspark import SparkContext
 
 if __name__ == "__main__":
 
@@ -16,6 +19,9 @@ if __name__ == "__main__":
     words = nonempty_lines.flatMap(lambda x: x.split(" "))
 
     # print(words.collect())
-    wordcount = words.map(lambda x: (x, 1)) .reduceByKey(lambda x, y: x + y).map(lambda x: (x[1], x[0])).sortByKey(False)
+    wordcount = words.map(lambda x: (x, 1))\
+        .reduceByKey(lambda x, y: x + y)\
+        .map(lambda x: (x[1], x[0]))\
+        .sortByKey(False)
 
     print(wordcount.collect())
