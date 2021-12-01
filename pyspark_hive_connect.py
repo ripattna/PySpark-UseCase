@@ -1,8 +1,8 @@
-# Configure spark variables
-from pyspark.context import SparkContext
-from pyspark.sql.context import SQLContext
+"""
+Configure spark variables
+"""
+
 from pyspark.sql.session import SparkSession
-from os.path import abspath
 
 if __name__ == "__main__":
 

@@ -1,13 +1,19 @@
+""" Reading a file from HDFS """
 from pyspark.sql import SparkSession
 
 
-class Csv_demo:
+class ReadFromHdfs:
+    """This class will Read a file from HDFS"""
+
     @staticmethod
     def csv_test():
+        """This method will Read a file from HDFS"""
         try:
+            # Creating Spark Session
             spark = SparkSession.builder.appName("test").getOrCreate()
-            # path = 'C:\\Project\\Files\\Input\\csv\\Sample.csv'
+            # Specifying the HDFS path
             path = "hdfs://localhost:9003/user/data/Sample.csv"
+            # Read the CSV file from HDFS
             data_df = spark.read.csv(path, inferSchema=True, header=True)
 
             print('The type of csv file data is:', type(data_df))
@@ -28,6 +34,4 @@ class Csv_demo:
 
 
 if __name__ == "__main__":
-    Csv_demo.csv_test()
-
-
+    ReadFromHdfs.csv_test()
