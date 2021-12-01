@@ -1,3 +1,6 @@
+"""
+Connect to SQl and Convert the data to SparkDF and then load to HIVE table
+"""
 import pymysql
 import pandas as pd
 from pyspark.sql import SparkSession
@@ -6,10 +9,10 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName('Test').master("local").getOrCreate()
 
 # Open database connection
-dbcon = pymysql.connect(host="localhost", user="rissan", password="rissan", database="demo")
+dbCon = pymysql.connect(host="localhost", user="root", password="root", database="demo")
 
 try:
-    SQL_Query = pd.read_sql_query('''select Id,Name,Gender,Salary from employee''', dbcon)
+    SQL_Query = pd.read_sql_query('''select Id,Name,Gender,Salary from employee''', dbCon)
 
     pdf = pd.DataFrame(SQL_Query, columns=['Id', 'Name', 'Gender', "Salary"])
     print(pdf)
@@ -35,5 +38,4 @@ try:
 except:
     print("Error: unable to convert the data")
 
-dbcon.close()
-
+dbCon.close()
