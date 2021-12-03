@@ -1,5 +1,5 @@
 """
-Interview Asked Question: To get the number of partition
+To get the number of partition in RDD
 """
 from pyspark.sql import SparkSession
 
