@@ -1,5 +1,5 @@
 """
-This is a word count program in Pyspark
+This is a word count program in PySpark
 """
 from pyspark import SparkContext
 
