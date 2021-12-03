@@ -1,8 +1,5 @@
 # Configure spark variables
 from pyspark.context import SparkContext
-from pyspark.sql.context import SQLContext
-from pyspark.sql.session import SparkSession
-
 from pyspark import SparkConf
 
 
@@ -22,7 +19,7 @@ def rdd_basic():
 
     # Display the sorted output (ascending and descending) through an RDD
     sort_asc_rdd = rdd.sortByKey("asc")
-    sort_desc_rdd = rdd.sortByKey(ascending=False)
+    sort_desc_rdd = rdd.sortByKey(ascending = False)
     print("The ascending order of the RDD:", sort_asc_rdd.collect())
     print("The descending order of the RDD:", sort_desc_rdd.collect())
 
