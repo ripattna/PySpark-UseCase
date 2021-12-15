@@ -1,5 +1,7 @@
 """
-Different ways to create RDD
+
+Different ways to create Spark RDD
+
 """
 from pyspark.sql import SparkSession
 
