@@ -7,11 +7,14 @@ Sample op: 100.0.0.0,4
 
 from pyspark.sql import SparkSession
 
+# Creating Spark Session
 spark = SparkSession.builder.appName("Test").getOrCreate()
 
-Webclicks = spark.sparkContext.textFile("resources/goShopping_WebClicks.dat")
-Webclicks_split = Webclicks.map(lambda x: x.split("\t"))
-Device_Products = Webclicks_split.map(lambda x: (x[4], x[5].split("&")[0].split("=")[1]))
+# Reading the WebClicks Dataset
+webClicks = spark.sparkContext.textFile("resources/goShopping_WebClicks.dat")
+
+webClicks_split = webClicks.map(lambda x: x.split("\t"))
+Device_Products = webClicks_split.map(lambda x: (x[4], x[5].split("&")[0].split("=")[1]))
 filter_product = Device_Products.filter(lambda x: x[1] == 'jewellery')
 count_product = filter_product.map(lambda x: (x[0], 1))
 result = count_product.reduceByKey(lambda x, y: x + y)
