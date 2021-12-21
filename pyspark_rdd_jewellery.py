@@ -12,8 +12,9 @@ spark = SparkSession.builder.appName("Test").getOrCreate()
 
 # Reading the WebClicks Dataset
 webClicks = spark.sparkContext.textFile("resources/goShopping_WebClicks.dat")
-
+# Splitting the data with \t
 webClicks_split = webClicks.map(lambda x: x.split("\t"))
+
 deviceProducts = webClicks_split.map(lambda x: (x[4], x[5].split("&")[0].split("=")[1]))
 filter_product = deviceProducts.filter(lambda x: x[1] == 'jewellery')
 count_product = filter_product.map(lambda x: (x[0], 1))
