@@ -1,15 +1,17 @@
-# Configure spark variables
-from pyspark.context import SparkContext
-from pyspark import SparkConf
+"""
+
+Rdd assignments RDD basics
+
+"""
+from pyspark.sql import SparkSession
 
 
 def rdd_basic():
-
-    conf = SparkConf().setAppName("appName").setMaster("local")
-    sc = SparkContext(conf=conf)
+    # Creating Spark Session
+    spark = SparkSession.builder.appName("test").getOrCreate()
 
     # Create a RDD for the above array
-    rdd = sc.parallelize(["10", "21", "90", "34", "40", "98", "21", "44", "59", "21", "90", "34", "29", "19", "21", "34", "29", "49", "78"])
+    rdd = spark.sparkContext.parallelize(["34", "29", "34", "29", "49", "78"])
 
     # Display the array
     print("The RDD elements are:", rdd.collect())
@@ -19,7 +21,7 @@ def rdd_basic():
 
     # Display the sorted output (ascending and descending) through an RDD
     sort_asc_rdd = rdd.sortByKey("asc")
-    sort_desc_rdd = rdd.sortByKey(ascending = False)
+    sort_desc_rdd = rdd.sortByKey(ascending=False)
     print("The ascending order of the RDD:", sort_asc_rdd.collect())
     print("The descending order of the RDD:", sort_desc_rdd.collect())
 
@@ -40,7 +42,7 @@ def rdd_basic():
     print("The top 5 element of the RDD are :", rdd.top(5))
 
     # Combine above array with a new array { 30,35,45,60,75,85} and display output.
-    new_rdd = sc.parallelize(["30", "35", "45", "60", "75", "85"])
+    new_rdd = spark.sparkContext.parallelize(["30", "35", "45", "60", "75", "85"])
     # print(newRdd.collect())
     print("After join the new elements:", rdd.union(new_rdd).collect())
 

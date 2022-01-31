@@ -1,26 +1,22 @@
 """
-Configure spark variables
+Pyspark hive connect
 """
 
 from pyspark.sql.session import SparkSession
 
 if __name__ == "__main__":
 
-    # warehouse_location points to the default location for managed databases and tables
-    # warehouse_location = abspath('spark-warehouse')
-
     # Creating SparkSession
     spark = SparkSession \
         .builder \
         .master("local[*]") \
-        .appName("Python Spark SQL Hive integration") \
-        .config("spark.sql.warehouse.dir", "C:\\Project\\Files\\Hive") \
+        .appName("Python Spark SQL Hive Integration") \
         .enableHiveSupport() \
         .getOrCreate()
 
     # Create Database demo
     spark.sql("create database if not exists Demo")
-    spark.sql("drop table demo.movies")
+    # spark.sql("drop table demo.movies")
 
     # Listing all the Databases
     spark.sql("show databases").show()
@@ -54,4 +50,4 @@ if __name__ == "__main__":
 
     # spark.sql("CREATE TABLE src(key INT, value STRING) USING hive")
     # spark.sql("insert into movies (movieId, title,genres) VALUES (12,"xyz","abc")
-    # ...
+
