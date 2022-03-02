@@ -22,6 +22,7 @@ def decoder(image):
         print("Barcode: " + barcodeData + " | Type: " + barcodeType)
 
 
+
 cap = cv2.VideoCapture(0)
 while True:
     ret, frame = cap.read()
