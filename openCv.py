@@ -7,7 +7,7 @@ while True:
     _, frame = capture.read()
     decode_data = decode(frame)
     try:
-        print(decode_data[0][0])
+        print(decode_data[0])
 
     except:
         pass
