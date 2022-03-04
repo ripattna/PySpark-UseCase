@@ -30,7 +30,7 @@ class DataFrame_Coding_Problem:
 
             df_emp_deptheadcount.createOrReplaceTempView("records")
 
-            sql_df = spark.sql("select * from records order by DeptHeadCount desc").show()
+            spark.sql("select * from records order by DeptHeadCount desc").show()
 
         except ValueError:
             print("Error in Data Retrieving")

@@ -4,7 +4,6 @@ from pyspark.sql import SparkSession
 class Json_demo:
     @staticmethod
     def json_test():
-
         spark = SparkSession.builder.appName("test").getOrCreate()
 
         path = "C:\\Project\\Files\\Input\\json\\Sample-JSON.json"
@@ -23,17 +22,13 @@ class Json_demo:
         print(data_df.select('City', 'ZipCodeType').show())
         print(data_df.select(['City', 'ZipCodeType']).show())
 
-        new_record_number = data_df.withColumnRenamed('RecordNumber', 'Us_Record_number').show()
-        print(new_record_number)
-        print(data_df.show())
+        data_df.withColumnRenamed('RecordNumber', 'Us_Record_number').show()
 
-        new_record = data_df.withColumn('newRecordNumber', data_df['RecordNumber']+1).show()
-        print(new_record)
-
+        data_df.withColumn('newRecordNumber', data_df['RecordNumber'] + 1).show()
         print(type(data_df))
 
         # Creating a Temp View from the DataFrame
-        temp_view = data_df.createOrReplaceTempView("records")
+        data_df.createOrReplaceTempView("records")
 
         sql_df = spark.sql("select * from records")
         print(sql_df.show())
@@ -41,7 +36,3 @@ class Json_demo:
 
 if __name__ == "__main__":
     Json_demo.json_test()
-
-
-
-
