@@ -27,7 +27,7 @@ while True:
     ret, frame = cap.read()
     decoder(frame)
     cv2.imshow('Image', frame)
-    code = cv2.waitKey(1)
+    code = cv2.waitKey(0)
     if code == ord('q'):
         break
 
