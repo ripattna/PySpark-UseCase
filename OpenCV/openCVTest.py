@@ -30,3 +30,4 @@ while True:
     code = cv2.waitKey(1)
     if code == ord('q'):
         break
+
