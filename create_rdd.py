@@ -1,9 +1,16 @@
 from pyspark.sql import SparkSession
 
 
-class CreteRDD:
+class CreateRDD:
+    """
+    This is a class called CreateRDD
+    """
     @staticmethod
     def rdd_test():
+        """
+        This is a method no arguments.
+        :return:
+        """
         try:
 
             # Creating SparkSession Session
@@ -53,4 +60,4 @@ class CreteRDD:
 
 
 if __name__ == "__main__":
-    CreteRDD.rdd_test()
+    CreateRDD.rdd_test()
