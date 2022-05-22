@@ -32,7 +32,7 @@ else:
      LINES TERMINATED BY "\n" \
      stored as TEXTFILE')
 
-    spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/text/Product.txt' INTO TABLE product")
+    spark.sql("LOAD DATA LOCAL INPATH 'resources/Product.txt' INTO TABLE product")
 
 # spark.sql("show tables").show()
 

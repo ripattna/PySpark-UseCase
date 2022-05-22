@@ -2,3 +2,6 @@
 .idea
 .idea/workspace.xml
 .idea/Pyspark.iml
+derby.log
+metastore_db/
+spark-warehouse/
