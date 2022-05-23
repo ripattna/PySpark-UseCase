@@ -1,8 +1,7 @@
 # Configure spark variables
 from pyspark import SparkConf
 from pyspark.context import SparkContext
-from pyspark.sql.context import SQLContext
-from pyspark.sql.session import SparkSession
+
 
 conf = SparkConf().setAppName("appName").setMaster("local")
 sc = SparkContext(conf=conf)

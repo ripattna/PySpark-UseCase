@@ -9,7 +9,7 @@ spark = SparkSession.builder.appName("scores_article_level").master("local[*]").
 
 # Read the file
 scores_article_level = spark.read.format("csv") \
-                       .load("resources/scores_article_level.csv", inferSchema=False, header=True)  \
+                       .load("resources/scores_article_level.csv", inferSchema=True, header=True)  \
 
 scores_article_level.show()
 scores_article_level.printSchema()
