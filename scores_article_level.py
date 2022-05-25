@@ -14,7 +14,12 @@ scores_article_level = spark.read.format("csv") \
 scores_article_level.show()
 scores_article_level.printSchema()
 
-scores_article_level.select(col("dt"), to_date(col("dt"), "MM-dd-yyyy").alias("dt")).show()
+scores_article_level = scores_article_level.withColumn("aggregation", lit(14))
+scores_article_level.show()
+scores_article_level.printSchema()
+
+
+# scores_article_level.select(col("dt"), to_date(col("dt"), "MM-dd-yyyy").alias("dt")).show()
 
 # scores_article_level = scores_article_level.withColumn("dt", col("dt").cast("date"))
 # scores_article_level.show()

@@ -6,7 +6,7 @@ class Json_demo:
     def json_test():
         spark = SparkSession.builder.appName("test").getOrCreate()
 
-        path = "C:\\Project\\Files\\Input\\json\\Sample-JSON.json"
+        path = "resources\Sample-JSON.json"
         data_df = spark.read.option("multiline", "true").json(path)
 
         print(data_df.show())
