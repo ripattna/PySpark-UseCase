@@ -28,3 +28,4 @@ print("The time is now: = %s:%s:%s" % (e.hour, e.minute, e.second))
 
 a = e.strftime("%Y-%m-%d")
 print("Value of A:", a)
+
