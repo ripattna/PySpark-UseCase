@@ -1,14 +1,14 @@
-from pyspark.sql import SparkSession
-from pyspark.sql.types import ArrayType, StructField, StructType, StringType, IntegerType
+"""
 
-appName = "PySpark Example - Python Array/List to Spark Data Frame"
-master = "local"
+Dataframe basics examples
+
+"""
+from pyspark.sql import SparkSession
+from pyspark.sql.types import StructField, StructType, StringType, IntegerType
+
 
 # Create Spark session
-spark = SparkSession.builder \
-    .appName(appName) \
-    .master(master) \
-    .getOrCreate()
+spark = SparkSession.builder.appName("test").master("local").getOrCreate()
 
 # List
 data = [('Category A', 100, "This is category A"),
@@ -28,4 +28,3 @@ rdd = spark.sparkContext.parallelize(data)
 df = spark.createDataFrame(rdd, schema)
 print(df.schema)
 df.show()
-

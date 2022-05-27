@@ -1,5 +1,5 @@
 """
-Pyspark hive connect
+Pyspark hive connect examples
 """
 
 from pyspark.sql.session import SparkSession
@@ -50,4 +50,3 @@ if __name__ == "__main__":
 
     # spark.sql("CREATE TABLE src(key INT, value STRING) USING hive")
     # spark.sql("insert into movies (movieId, title,genres) VALUES (12,"xyz","abc")
-
