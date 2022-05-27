@@ -26,8 +26,6 @@ class ReadFromHdfs:
 
             # sql_df = spark.sql("select * from records where Units > 50")
             # print(sql_df.show())
-            # print(type(data_df))
-            # print(type(sql_df))
 
         except ValueError:
             print("Not able to read the csv file")

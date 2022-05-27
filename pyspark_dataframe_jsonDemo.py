@@ -6,11 +6,7 @@ class Json_demo:
     def json_test():
         spark = SparkSession.builder.appName("test").getOrCreate()
 
-<<<<<<< HEAD
-        path = "resources\Sample-JSON.json"
-=======
         path = "resources/Sample-JSON.json"
->>>>>>> 633c6b9cb14b481002a804c4060c664710f18359
         data_df = spark.read.option("multiline", "true").json(path)
 
         print(data_df.show())
