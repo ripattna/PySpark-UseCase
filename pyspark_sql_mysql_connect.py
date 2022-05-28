@@ -15,5 +15,3 @@ my_cursor = my_db.cursor()
 my_cursor.execute("show databases")
 for x in my_cursor:
     print(x)
-
-
