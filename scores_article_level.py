@@ -16,10 +16,7 @@ agg_range = [14, 28]
 
 for i in agg_range:
     scores_article_level = scores_article_level.withColumn("aggregation", lit(i))
-    scores_article_level.show()
+    # scores_article_level.show()
     
 
 scores_article_level.show()
-
-
-
