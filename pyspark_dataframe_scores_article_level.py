@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import sum, lit, col, mean, ntile, count
-from pyspark.sql import SparkSession
 from pyspark.sql.types import *
+from pyspark.sql.functions import sum, lit, col, mean, count
+from datetime import date
 
 # SparkSession
 spark = SparkSession.builder.appName("scores_article_level").master("local[*]").getOrCreate()
@@ -26,7 +26,19 @@ columns = StructType([StructField('article', StringType(), False),
 df1 = spark.createDataFrame(data=emp_RDD, schema=columns)
 df2 = spark.createDataFrame(data=emp_RDD, schema=columns)
 
-window = [14, 28]
+# Season till date logic
+current_month = date.today().month
+if current_month >= 6 and current_month <= 11:
+    season_start_date = date(date.today().year, 6, 1)
+elif current_month == 12:
+    season_start_date = date(date.today().year, 12, 1)
+else:
+    season_start_date = date(date.today().year - 1, 12, 1)
+
+current_date = date.today()
+season_till_date = abs(current_date - season_start_date).days
+
+window = [14, 28, season_till_date]
 
 for i in window:
 
