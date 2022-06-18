@@ -9,8 +9,7 @@ from pyspark.sql import DataFrame
 
 spark = SparkSession.builder.appName("scores_article_level").master("local[*]").getOrCreate()
 
-scores_article_level_read = spark.read.format("csv")\
-    .load("resources/scores_article_level.csv", inferSchema=True, header=True)
+scores_article_level_read = spark.read.format("csv").load("resources/scores_article_level.csv", inferSchema=True, header=True)
 scores_article_level_read.show()
 
 current_month = date.today().month
