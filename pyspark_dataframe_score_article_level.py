@@ -29,7 +29,6 @@ window = [14, 28, session_till_date]
 for i in window:
     scores_article_level = scores_article_level_read.withColumn("aggregation", lit(i))
     append_pair_scores.append(scores_article_level)
-    scores_article_levelNew = reduce(DataFrame.unionAll, append_pair_scores)
-    # scores_article_levelNew.show()
+    scores_article_level = reduce(DataFrame.unionAll, append_pair_scores)
 
-scores_article_levelNew.show()
+scores_article_level.show()
