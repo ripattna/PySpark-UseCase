@@ -10,6 +10,7 @@ spark = SparkSession.builder.master("local[1]").appName("SparkByExamples.com").g
 data = [(14, "14851 Jeffrey Rd", "DE"),
         (28, "43421 Margarita St", "NY"),
         (30, "13111 Simon Ave", "CA")]
+
 df = spark.createDataFrame(data, ["aggregation", "address", "state"])
 df.show()
 

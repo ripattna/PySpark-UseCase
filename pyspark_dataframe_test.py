@@ -1,7 +1,5 @@
 """
-
 Dataframe basics examples
-
 """
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, StringType, IntegerType
