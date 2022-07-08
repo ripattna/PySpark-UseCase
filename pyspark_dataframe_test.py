@@ -4,7 +4,6 @@ Dataframe basics examples
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, StringType, IntegerType
 
-
 # Create Spark session
 spark = SparkSession.builder.appName("test").master("local").getOrCreate()
 
@@ -26,3 +25,5 @@ rdd = spark.sparkContext.parallelize(data)
 df = spark.createDataFrame(rdd, schema)
 print(df.schema)
 df.show()
+
+

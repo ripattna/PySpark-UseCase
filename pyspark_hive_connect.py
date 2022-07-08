@@ -29,16 +29,16 @@ if __name__ == "__main__":
 
     if len(table_name) > 0:
         print("Table movies is present in Demo database")
+
     else:
         print("Table not found,Creating the table")
         spark.sql('create table movies \
-         (Film string,Genres string,Lead_Studio string,Audition_Score int,'
-                  'Profit string,Rotten string,Year int) \
+         (Film string,Genres string,Lead_Studio string,Audition_Score int,Profit string,Rotten string,Year int) \
          row format delimited fields terminated by "," \
          LINES TERMINATED BY "\n" \
          stored as TEXTFILE')
 
-        spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/Movie_1.txt' INTO TABLE movies")
+        spark.sql("LOAD DATA LOCAL INPATH 'resources/Movie.txt' INTO TABLE movies")
 
     spark.sql("show tables").show()
 
