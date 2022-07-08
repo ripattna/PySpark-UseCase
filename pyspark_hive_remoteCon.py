@@ -1,4 +1,3 @@
-# from logging import getLogger
 from pyspark.sql import SparkSession
 from os.path import abspath
 

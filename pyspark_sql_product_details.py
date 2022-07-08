@@ -58,7 +58,7 @@ spark.sql("WITH Result AS"
           "(SELECT *,DENSE_RANK() OVER (partition by commodity ORDER BY price DESC)as Price_Rank FROM product)"
           "SELECT * FROM Result WHERE Price_Rank = 1").show()
 
-# Select the second highest commodity of each category
+# Select the second-highest commodity of each category
 print("The Second Highest Commodity of each category")
 spark.sql("select * from"
           "(select *,row_number() over (partition by commodity,version ORDER BY price desc) rn from product)v"

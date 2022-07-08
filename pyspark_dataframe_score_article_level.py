@@ -2,7 +2,7 @@
 This program is to calculate the score for different season
 """
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import regexp_replace, sum, lit, col, mean, count, when
+from pyspark.sql.functions import sum, lit, col, mean, count, when
 from datetime import date
 from functools import reduce
 from pyspark.sql import DataFrame

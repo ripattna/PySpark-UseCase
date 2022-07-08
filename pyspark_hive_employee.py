@@ -32,7 +32,7 @@ else:
      LINES TERMINATED BY "\n" \
      stored as TEXTFILE')
 
-    spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/text/Employee.txt' INTO TABLE employee")
+    spark.sql("LOAD DATA LOCAL INPATH 'resources/Employee.txt' INTO TABLE employee")
 
 # Select the highest salary
 print("Select the highest salary:")
@@ -40,7 +40,7 @@ spark.sql("select * from"
           "(select *,DENSE_RANK() over(order by salary desc)as DENSE_RANK FROM employee)v "
           "where DENSE_RANK=1").show()
 
-# Select the third highest salary
+# Select the third-highest salary
 print("Select the third highest salary:")
 spark.sql("select * from"
           "(select *,DENSE_RANK() over(order by salary desc)as DENSE_RANK FROM employee)v "

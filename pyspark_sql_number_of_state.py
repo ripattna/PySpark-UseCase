@@ -5,7 +5,7 @@ Find the number of state for each Country (ipLookup Dataset)
 from pyspark.sql.types import *
 from pyspark.sql import SparkSession
 
-# Creating Spark Spark Session
+# Creating Spark Session
 spark = SparkSession.builder.appName('Test').getOrCreate()
 
 # Creating the schema

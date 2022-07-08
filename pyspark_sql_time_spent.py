@@ -4,7 +4,7 @@ To find the overall time spend from the device Android
 from pyspark.sql.types import *
 from pyspark.sql import SparkSession
 
-# Creating Spark Spark Session
+# Creating Spark Session
 spark = SparkSession.builder.appName('Test').getOrCreate()
 
 schema1 = StructType([StructField("Date", StringType(), True),

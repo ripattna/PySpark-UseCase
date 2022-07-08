@@ -7,10 +7,13 @@ from datetime import date
 spark = SparkSession.builder.appName("scores_article_level").master("local[*]").getOrCreate()
 
 # Read the file
-scores_article_level = spark.read.format("csv").load("resources/scores_article_level.csv", inferSchema=True,header=True)
+scores_article_level = spark \
+    .read \
+    .format("csv") \
+    .load("resources/scores_article_level.csv", inferSchema=True, header=True)
 scores_article_level.show()
 
-emp_RDD = spark.sparkContext.emptyRDD()    # Empty RDD
+emp_RDD = spark.sparkContext.emptyRDD()  # Empty RDD
 columns = StructType([StructField('article', StringType(), False),
                       StructField('purchases', IntegerType(), False),
                       StructField('purchases_bundle', IntegerType(), False),

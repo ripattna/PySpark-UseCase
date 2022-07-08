@@ -1,0 +1,10 @@
+1,Mark,Male,8000
+2,John,Male,8000
+3,Pam,Female,5000
+4,Sara,Female,4000
+5,Todd,Male,3500
+6,Mary,Female,6000
+7,Ben,Male,6500
+8,Jodi,Female,4500
+9,Tom,Male,7000
+10,Ron,Male,6800
